@@ -1,5 +1,8 @@
 export class CreateUserDto {
-    email: string;
-    name: string;
-    password: string;
-}
+        name: string;
+        description: string;
+        batch: number;
+        provider: string;
+        value: number;
+        quantity: number;
+  }
